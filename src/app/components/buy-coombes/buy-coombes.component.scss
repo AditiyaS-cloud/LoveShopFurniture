@@ -1,0 +1,36 @@
+mat-card{
+    width:30%;
+}
+
+.content{
+    padding:16px;
+    display:flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.content > mat-card {
+    width: 535px;
+    margin-right:40px;
+}
+p{
+    text-align: left;
+    margin-left: 16px;
+    font-weight: 500;
+}
+
+button{
+    background-color: black;
+    color:white;
+    margin-left:40px;
+}
+
+strong{
+    margin-left:18px
+}
+
+.addcart{
+    text-align: right;
+    margin-left: 55px;
+    float: right;
+}

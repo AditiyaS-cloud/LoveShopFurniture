@@ -1,0 +1,92 @@
+<div class="content">
+  <mat-toolbar>
+    <mat-toolbar-row style="width: 96%">
+      <span><a href="">HOME</a></span>
+      <span><a href="">SHOP</a></span>
+      <span><a href="">MAGAZINE</a></span>
+      <span class="spacer"></span>
+      <span class="material-icons"> shopping_cart </span>
+
+      <button class="primary" click="login()">Login</button>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</div>
+
+<div class="content">
+  <mat-card>
+    <img mat-card-image src="./../assets/images/furniture6.jpg" routerLink = "coombes" />
+    <mat-card-content>
+      <div>
+        <div style="float: left">
+          <strong>Coombes</strong>
+          <span class="material-icons rate">grade</span>
+          <span class="material-icons rate">grade</span>
+          <span class="material-icons rate">grade</span>
+          <span class="material-icons rate">grade</span>
+
+        </div>
+        <div style="float: right">
+          $2,600 <br />
+          <span class="material-icons addcart" >add_shopping_cart </span>
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>
+  <mat-card>
+    <img mat-card-image src="./../assets/images/furniture2.jpg"  routerLink = "keeveset"/>
+    <mat-card-content>
+      <div>
+        <div style="float: left">
+          <strong>Keeve Set</strong>
+          <span class="material-icons rate">grade</span>
+          <span class="material-icons rate">grade</span>
+          <span class="material-icons rate">grade</span>
+          <span class="material-icons rate">grade</span>
+        </div>
+        <div style="float: right">
+          $590 <br />
+          <span class="material-icons addcart">add_shopping_cart </span>
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>
+  <mat-card>
+    <img mat-card-image src="./../assets/images/furniture3.jpg" routerLink = "nille"/>
+    <mat-card-content>
+      <div>
+        <div style="float: left">
+          <strong>Nille</strong>
+          <span class="material-icons rate">grade</span>
+          <span class="material-icons rate">grade</span>
+          <span class="material-icons rate">grade</span>
+          <span class="material-icons rate">grade</span>
+          <span class="material-icons rate">grade</span>
+
+        </div>
+        <div style="float: right">
+          $950 <br />
+          <span class="material-icons addcart">add_shopping_cart </span>
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>
+  <mat-card>
+    <img mat-card-image src="./../assets/images/furniture4.jpg" routerLink = "momo" />
+    <mat-card-content>
+      <div>
+        <div style="float: left">
+          <strong>Momo</strong>
+          <span class="material-icons rate">grade</span>
+          <span class="material-icons rate">grade</span>
+          <span class="material-icons rate">grade</span>
+          <span class="material-icons rate">grade</span>
+        </div>
+        <div style="float: right">
+          $890 <br />
+          <span class="material-icons addcart">add_shopping_cart </span>
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>
+<router-outlet></router-outlet>

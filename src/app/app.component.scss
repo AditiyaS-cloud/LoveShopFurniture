@@ -1,0 +1,37 @@
+
+
+.content{
+    padding:16px;
+    display:flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.content > mat-card {
+    width: 535px;
+    margin-right:40px;
+}
+
+mat-card{
+    width:30%
+}
+  
+  .spacer {
+    flex: 1 1 auto;
+   
+  }
+
+  span{
+    margin-right: 10px;
+    color:black;
+    font-weight: bold;
+  }
+  
+  .addcart{
+      float:right
+  }
+
+  .rate{
+      float:left;
+      font-size: 16px;
+  }
